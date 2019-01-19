@@ -1,0 +1,701 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should have a bounced state 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  background-color: #990000;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 1;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.c0:hover {
+  background-color: #800000;
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+<Button
+  bounced={true}
+  disabled={false}
+  type="button"
+  width="100%"
+>
+  <styled.button
+    bounced={true}
+    disabled={false}
+    type="button"
+    width="100%"
+  >
+    <StyledComponent
+      bounced={true}
+      disabled={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "type": [Function],
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: ",
+              [Function],
+              ";
+  padding: 0 1rem;
+  box-sizing: border-box;
+  color: ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+  border: none;
+  border-radius: 0.25rem;
+  cursor: ",
+              [Function],
+              ";
+  outline: none;
+  transition: all 0.3s ease 0s;
+  opacity: ",
+              [Function],
+              ";
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  font-weight: 600;
+
+  &:hover {
+    background-color: ",
+              [Function],
+              ";
+    transform: ",
+              [Function],
+              ";
+  }
+",
+            ],
+          },
+          "displayName": "styled.button",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "button",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="button"
+      width="100%"
+    >
+      <button
+        className="c0"
+        disabled={false}
+        type="button"
+        width="100%"
+      />
+    </StyledComponent>
+  </styled.button>
+</Button>
+`;
+
+exports[`Button should have a disabled state 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  background-color: #990000;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: not-allowed;
+  outline: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 0.5;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.c0:hover {
+  background-color: #990000;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+<Button
+  bounced={false}
+  disabled={true}
+  type="button"
+  width="100%"
+>
+  <styled.button
+    bounced={false}
+    disabled={true}
+    type="button"
+    width="100%"
+  >
+    <StyledComponent
+      bounced={false}
+      disabled={true}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "type": [Function],
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: ",
+              [Function],
+              ";
+  padding: 0 1rem;
+  box-sizing: border-box;
+  color: ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+  border: none;
+  border-radius: 0.25rem;
+  cursor: ",
+              [Function],
+              ";
+  outline: none;
+  transition: all 0.3s ease 0s;
+  opacity: ",
+              [Function],
+              ";
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  font-weight: 600;
+
+  &:hover {
+    background-color: ",
+              [Function],
+              ";
+    transform: ",
+              [Function],
+              ";
+  }
+",
+            ],
+          },
+          "displayName": "styled.button",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "button",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="button"
+      width="100%"
+    >
+      <button
+        className="c0"
+        disabled={true}
+        type="button"
+        width="100%"
+      />
+    </StyledComponent>
+  </styled.button>
+</Button>
+`;
+
+exports[`Button should have a type property 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  background-color: #990000;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 1;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.c0:hover {
+  background-color: #800000;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+<Button
+  bounced={false}
+  disabled={false}
+  type="submit"
+  width="100%"
+>
+  <styled.button
+    bounced={false}
+    disabled={false}
+    type="submit"
+    width="100%"
+  >
+    <StyledComponent
+      bounced={false}
+      disabled={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "type": [Function],
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: ",
+              [Function],
+              ";
+  padding: 0 1rem;
+  box-sizing: border-box;
+  color: ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+  border: none;
+  border-radius: 0.25rem;
+  cursor: ",
+              [Function],
+              ";
+  outline: none;
+  transition: all 0.3s ease 0s;
+  opacity: ",
+              [Function],
+              ";
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  font-weight: 600;
+
+  &:hover {
+    background-color: ",
+              [Function],
+              ";
+    transform: ",
+              [Function],
+              ";
+  }
+",
+            ],
+          },
+          "displayName": "styled.button",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "button",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="submit"
+      width="100%"
+    >
+      <button
+        className="c0"
+        disabled={false}
+        type="submit"
+        width="100%"
+      />
+    </StyledComponent>
+  </styled.button>
+</Button>
+`;
+
+exports[`Button should have a type property 2`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  background-color: #990000;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 1;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.c0:hover {
+  background-color: #800000;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+<Button
+  bounced={false}
+  disabled={false}
+  type="reset"
+  width="100%"
+>
+  <styled.button
+    bounced={false}
+    disabled={false}
+    type="reset"
+    width="100%"
+  >
+    <StyledComponent
+      bounced={false}
+      disabled={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "type": [Function],
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: ",
+              [Function],
+              ";
+  padding: 0 1rem;
+  box-sizing: border-box;
+  color: ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+  border: none;
+  border-radius: 0.25rem;
+  cursor: ",
+              [Function],
+              ";
+  outline: none;
+  transition: all 0.3s ease 0s;
+  opacity: ",
+              [Function],
+              ";
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  font-weight: 600;
+
+  &:hover {
+    background-color: ",
+              [Function],
+              ";
+    transform: ",
+              [Function],
+              ";
+  }
+",
+            ],
+          },
+          "displayName": "styled.button",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "button",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="reset"
+      width="100%"
+    >
+      <button
+        className="c0"
+        disabled={false}
+        type="reset"
+        width="100%"
+      />
+    </StyledComponent>
+  </styled.button>
+</Button>
+`;
+
+exports[`Button should render correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  background-color: #990000;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  opacity: 1;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.c0:hover {
+  background-color: #800000;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+<Button
+  bounced={false}
+  disabled={false}
+  type="button"
+  width="100%"
+>
+  <styled.button
+    bounced={false}
+    disabled={false}
+    type="button"
+    width="100%"
+  >
+    <StyledComponent
+      bounced={false}
+      disabled={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "type": [Function],
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: ",
+              [Function],
+              ";
+  padding: 0 1rem;
+  box-sizing: border-box;
+  color: ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+  border: none;
+  border-radius: 0.25rem;
+  cursor: ",
+              [Function],
+              ";
+  outline: none;
+  transition: all 0.3s ease 0s;
+  opacity: ",
+              [Function],
+              ";
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  font-weight: 600;
+
+  &:hover {
+    background-color: ",
+              [Function],
+              ";
+    transform: ",
+              [Function],
+              ";
+  }
+",
+            ],
+          },
+          "displayName": "styled.button",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "button",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      type="button"
+      width="100%"
+    >
+      <button
+        className="c0"
+        disabled={false}
+        type="button"
+        width="100%"
+      />
+    </StyledComponent>
+  </styled.button>
+</Button>
+`;
