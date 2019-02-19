@@ -17,15 +17,15 @@ exports[`Button should have a bounced state 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  width: 100%;
-  padding: 0 1rem;
+  height: 3rem;
+  line-height: 1.5rem;
+  width: 90%;
+  padding: .375rem .75rem;
   box-sizing: border-box;
   color: #FFFFFF;
-  background-color: #990000;
-  border: none;
-  border-radius: 0.25rem;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
   cursor: pointer;
   outline: none;
   -webkit-transition: all 0.3s ease 0s;
@@ -33,27 +33,23 @@ exports[`Button should have a bounced state 1`] = `
   opacity: 1;
   font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  font-weight: 600;
-}
-
-.c0:hover {
-  background-color: #800000;
-  -webkit-transform: scale(0.95);
-  -ms-transform: scale(0.95);
-  transform: scale(0.95);
+  font-weight: 400;
+  text-transform: uppercase !important;
+  margin: 0 auto;
+  margin-top: 1.5rem;
 }
 
 <Button
   bounced={true}
   disabled={false}
   type="button"
-  width="100%"
+  width="90%"
 >
   <styled.button
     bounced={true}
     disabled={false}
     type="button"
-    width="100%"
+    width="90%"
   >
     <StyledComponent
       bounced={true}
@@ -62,9 +58,7 @@ exports[`Button should have a bounced state 1`] = `
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [
-            Object {
-              "type": [Function],
-            },
+            [Function],
           ],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
@@ -76,12 +70,12 @@ exports[`Button should have a bounced state 1`] = `
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 2.5rem;
-  line-height: 2.5rem;
+  height: 3rem;
+  line-height: 1.5rem;
   width: ",
               [Function],
               ";
-  padding: 0 1rem;
+  padding: .375rem .75rem;
   box-sizing: border-box;
   color: ",
               [Function],
@@ -89,8 +83,8 @@ exports[`Button should have a bounced state 1`] = `
   background-color: ",
               [Function],
               ";
-  border: none;
-  border-radius: 0.25rem;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
   cursor: ",
               [Function],
               ";
@@ -103,13 +97,14 @@ exports[`Button should have a bounced state 1`] = `
               [Function],
               ";
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
+
+  text-transform: uppercase !important;
+  margin: 0 auto;
+  margin-top: 1.5rem;
 
   &:hover {
     background-color: ",
-              [Function],
-              ";
-    transform: ",
               [Function],
               ";
   }
@@ -127,13 +122,13 @@ exports[`Button should have a bounced state 1`] = `
       }
       forwardedRef={null}
       type="button"
-      width="100%"
+      width="90%"
     >
       <button
         className="c0"
         disabled={false}
         type="button"
-        width="100%"
+        width="90%"
       />
     </StyledComponent>
   </styled.button>
@@ -157,15 +152,15 @@ exports[`Button should have a disabled state 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  width: 100%;
-  padding: 0 1rem;
+  height: 3rem;
+  line-height: 1.5rem;
+  width: 90%;
+  padding: .375rem .75rem;
   box-sizing: border-box;
   color: #FFFFFF;
-  background-color: #990000;
-  border: none;
-  border-radius: 0.25rem;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
   cursor: not-allowed;
   outline: none;
   -webkit-transition: all 0.3s ease 0s;
@@ -173,38 +168,33 @@ exports[`Button should have a disabled state 1`] = `
   opacity: 0.5;
   font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
+  text-transform: uppercase !important;
+  margin: 0 auto;
+  margin-top: 1.5rem;
 }
 
 .c0:hover {
-  background-color: #990000;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
+  background-color: rgba(0,0,0,0);
 }
 
 <Button
-  bounced={false}
   disabled={true}
   type="button"
-  width="100%"
+  width="90%"
 >
   <styled.button
-    bounced={false}
     disabled={true}
     type="button"
-    width="100%"
+    width="90%"
   >
     <StyledComponent
-      bounced={false}
       disabled={true}
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [
-            Object {
-              "type": [Function],
-            },
+            [Function],
           ],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
@@ -216,12 +206,12 @@ exports[`Button should have a disabled state 1`] = `
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 2.5rem;
-  line-height: 2.5rem;
+  height: 3rem;
+  line-height: 1.5rem;
   width: ",
               [Function],
               ";
-  padding: 0 1rem;
+  padding: .375rem .75rem;
   box-sizing: border-box;
   color: ",
               [Function],
@@ -229,8 +219,8 @@ exports[`Button should have a disabled state 1`] = `
   background-color: ",
               [Function],
               ";
-  border: none;
-  border-radius: 0.25rem;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
   cursor: ",
               [Function],
               ";
@@ -243,13 +233,14 @@ exports[`Button should have a disabled state 1`] = `
               [Function],
               ";
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
+
+  text-transform: uppercase !important;
+  margin: 0 auto;
+  margin-top: 1.5rem;
 
   &:hover {
     background-color: ",
-              [Function],
-              ";
-    transform: ",
               [Function],
               ";
   }
@@ -267,13 +258,13 @@ exports[`Button should have a disabled state 1`] = `
       }
       forwardedRef={null}
       type="button"
-      width="100%"
+      width="90%"
     >
       <button
         className="c0"
         disabled={true}
         type="button"
-        width="100%"
+        width="90%"
       />
     </StyledComponent>
   </styled.button>
@@ -297,15 +288,15 @@ exports[`Button should have a type property 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  width: 100%;
-  padding: 0 1rem;
+  height: 3rem;
+  line-height: 1.5rem;
+  width: 90%;
+  padding: .375rem .75rem;
   box-sizing: border-box;
   color: #FFFFFF;
-  background-color: #990000;
-  border: none;
-  border-radius: 0.25rem;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
   cursor: pointer;
   outline: none;
   -webkit-transition: all 0.3s ease 0s;
@@ -313,38 +304,29 @@ exports[`Button should have a type property 1`] = `
   opacity: 1;
   font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  font-weight: 600;
-}
-
-.c0:hover {
-  background-color: #800000;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
+  font-weight: 400;
+  text-transform: uppercase !important;
+  margin: 0 auto;
+  margin-top: 1.5rem;
 }
 
 <Button
-  bounced={false}
   disabled={false}
   type="submit"
-  width="100%"
+  width="90%"
 >
   <styled.button
-    bounced={false}
     disabled={false}
     type="submit"
-    width="100%"
+    width="90%"
   >
     <StyledComponent
-      bounced={false}
       disabled={false}
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [
-            Object {
-              "type": [Function],
-            },
+            [Function],
           ],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
@@ -356,12 +338,12 @@ exports[`Button should have a type property 1`] = `
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 2.5rem;
-  line-height: 2.5rem;
+  height: 3rem;
+  line-height: 1.5rem;
   width: ",
               [Function],
               ";
-  padding: 0 1rem;
+  padding: .375rem .75rem;
   box-sizing: border-box;
   color: ",
               [Function],
@@ -369,8 +351,8 @@ exports[`Button should have a type property 1`] = `
   background-color: ",
               [Function],
               ";
-  border: none;
-  border-radius: 0.25rem;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
   cursor: ",
               [Function],
               ";
@@ -383,13 +365,14 @@ exports[`Button should have a type property 1`] = `
               [Function],
               ";
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
+
+  text-transform: uppercase !important;
+  margin: 0 auto;
+  margin-top: 1.5rem;
 
   &:hover {
     background-color: ",
-              [Function],
-              ";
-    transform: ",
               [Function],
               ";
   }
@@ -407,13 +390,13 @@ exports[`Button should have a type property 1`] = `
       }
       forwardedRef={null}
       type="submit"
-      width="100%"
+      width="90%"
     >
       <button
         className="c0"
         disabled={false}
         type="submit"
-        width="100%"
+        width="90%"
       />
     </StyledComponent>
   </styled.button>
@@ -437,15 +420,15 @@ exports[`Button should have a type property 2`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  width: 100%;
-  padding: 0 1rem;
+  height: 3rem;
+  line-height: 1.5rem;
+  width: 90%;
+  padding: .375rem .75rem;
   box-sizing: border-box;
   color: #FFFFFF;
-  background-color: #990000;
-  border: none;
-  border-radius: 0.25rem;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
   cursor: pointer;
   outline: none;
   -webkit-transition: all 0.3s ease 0s;
@@ -453,38 +436,29 @@ exports[`Button should have a type property 2`] = `
   opacity: 1;
   font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  font-weight: 600;
-}
-
-.c0:hover {
-  background-color: #800000;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
+  font-weight: 400;
+  text-transform: uppercase !important;
+  margin: 0 auto;
+  margin-top: 1.5rem;
 }
 
 <Button
-  bounced={false}
   disabled={false}
   type="reset"
-  width="100%"
+  width="90%"
 >
   <styled.button
-    bounced={false}
     disabled={false}
     type="reset"
-    width="100%"
+    width="90%"
   >
     <StyledComponent
-      bounced={false}
       disabled={false}
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [
-            Object {
-              "type": [Function],
-            },
+            [Function],
           ],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
@@ -496,12 +470,12 @@ exports[`Button should have a type property 2`] = `
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 2.5rem;
-  line-height: 2.5rem;
+  height: 3rem;
+  line-height: 1.5rem;
   width: ",
               [Function],
               ";
-  padding: 0 1rem;
+  padding: .375rem .75rem;
   box-sizing: border-box;
   color: ",
               [Function],
@@ -509,8 +483,8 @@ exports[`Button should have a type property 2`] = `
   background-color: ",
               [Function],
               ";
-  border: none;
-  border-radius: 0.25rem;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
   cursor: ",
               [Function],
               ";
@@ -523,13 +497,14 @@ exports[`Button should have a type property 2`] = `
               [Function],
               ";
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
+
+  text-transform: uppercase !important;
+  margin: 0 auto;
+  margin-top: 1.5rem;
 
   &:hover {
     background-color: ",
-              [Function],
-              ";
-    transform: ",
               [Function],
               ";
   }
@@ -547,13 +522,13 @@ exports[`Button should have a type property 2`] = `
       }
       forwardedRef={null}
       type="reset"
-      width="100%"
+      width="90%"
     >
       <button
         className="c0"
         disabled={false}
         type="reset"
-        width="100%"
+        width="90%"
       />
     </StyledComponent>
   </styled.button>
@@ -577,15 +552,15 @@ exports[`Button should render correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  width: 100%;
-  padding: 0 1rem;
+  height: 3rem;
+  line-height: 1.5rem;
+  width: 90%;
+  padding: .375rem .75rem;
   box-sizing: border-box;
   color: #FFFFFF;
-  background-color: #990000;
-  border: none;
-  border-radius: 0.25rem;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
   cursor: pointer;
   outline: none;
   -webkit-transition: all 0.3s ease 0s;
@@ -593,38 +568,29 @@ exports[`Button should render correctly 1`] = `
   opacity: 1;
   font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  font-weight: 600;
-}
-
-.c0:hover {
-  background-color: #800000;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
+  font-weight: 400;
+  text-transform: uppercase !important;
+  margin: 0 auto;
+  margin-top: 1.5rem;
 }
 
 <Button
-  bounced={false}
   disabled={false}
   type="button"
-  width="100%"
+  width="90%"
 >
   <styled.button
-    bounced={false}
     disabled={false}
     type="button"
-    width="100%"
+    width="90%"
   >
     <StyledComponent
-      bounced={false}
       disabled={false}
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [
-            Object {
-              "type": [Function],
-            },
+            [Function],
           ],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
@@ -636,12 +602,12 @@ exports[`Button should render correctly 1`] = `
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 2.5rem;
-  line-height: 2.5rem;
+  height: 3rem;
+  line-height: 1.5rem;
   width: ",
               [Function],
               ";
-  padding: 0 1rem;
+  padding: .375rem .75rem;
   box-sizing: border-box;
   color: ",
               [Function],
@@ -649,8 +615,8 @@ exports[`Button should render correctly 1`] = `
   background-color: ",
               [Function],
               ";
-  border: none;
-  border-radius: 0.25rem;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
   cursor: ",
               [Function],
               ";
@@ -663,13 +629,14 @@ exports[`Button should render correctly 1`] = `
               [Function],
               ";
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
+
+  text-transform: uppercase !important;
+  margin: 0 auto;
+  margin-top: 1.5rem;
 
   &:hover {
     background-color: ",
-              [Function],
-              ";
-    transform: ",
               [Function],
               ";
   }
@@ -687,13 +654,13 @@ exports[`Button should render correctly 1`] = `
       }
       forwardedRef={null}
       type="button"
-      width="100%"
+      width="90%"
     >
       <button
         className="c0"
         disabled={false}
         type="button"
-        width="100%"
+        width="90%"
       />
     </StyledComponent>
   </styled.button>

@@ -10,9 +10,9 @@ const theme = {
     md: '62rem',
     lg: '75rem'
   },
-  buttonBackgroundColor: palette['crimson'],
+  buttonBackgroundColor: palette['transparent'],
   buttonColor: palette['white'],
-  buttonHoverColor: darken(0.05, palette['crimson']),
+  /* buttonHoverColor: darken(0.05, palette['crimson']), */
   textColor: palette['black80']
 }
 

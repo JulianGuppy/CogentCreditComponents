@@ -4,29 +4,33 @@ import styled from 'styled-components'
 
 import { prop, theme } from '../Tools/interpolation'
 
-const Wrapper = styled.button.attrs({
+const Wrapper = styled.button.attrs(props => ({
   type: prop('type')
-})`
+}))`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 2.5rem;
-  line-height: 2.5rem;
+  height: 3rem;
+  line-height: 1.5rem;
   width: ${prop('width')};
-  padding: 0 1rem;
+  padding: .375rem .75rem;
   box-sizing: border-box;
   color: ${theme('buttonColor')};
   background-color: ${theme('buttonBackgroundColor')};
-  border: none;
-  border-radius: 0.25rem;
+  border: 1px solid #ffffff;
+  border-radius: .25rem;
   cursor: ${(props) => props.disabled ? 'not-allowed' : 'pointer'};
   outline: none;
   transition: all 0.3s ease 0s;
   opacity: ${(props) => props.disabled ? 0.5 : 1};
   font-family: ${theme('fontPrimary')};
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
+
+  text-transform: uppercase !important;
+  margin: 0 auto;
+  margin-top: 1.5rem;
 
   &:hover {
     background-color: ${(props) => props.disabled ? theme('buttonBackgroundColor') : theme('buttonHoverColor')};
@@ -46,7 +50,7 @@ Button.propTypes = {
 Button.defaultProps = {
   disabled: false,
   type: 'button',
-  width: '100%'
+  width: '90%'
 }
 
 export default Button
