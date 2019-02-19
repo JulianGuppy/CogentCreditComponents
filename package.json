@@ -7,6 +7,7 @@
   "scripts": {
     "start": "start-storybook -p 6006",
     "build": "node utils/build.js",
+    "prepare": "node utils/build.js",
     "build-storybook": "build-storybook",
     "lint": "npm run ci:lint:js && npm run ci:lint:css",
     "test": "jest --notify --watch",
