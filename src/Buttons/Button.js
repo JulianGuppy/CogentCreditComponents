@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { prop, theme } from '../Tools/interpolation'
 
 const Wrapper = styled.button.attrs(props => ({
-  type: prop('type')
+    type: prop('type')
 }))`
   display: flex;
   flex-direction: row;
@@ -37,20 +37,20 @@ const Wrapper = styled.button.attrs(props => ({
   }
 `
 const Button = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
+    <Wrapper {...rest}>{children}</Wrapper>
 )
 
 Button.propTypes = {
-  children: PropTypes.node,
-  disabled: PropTypes.bool,
-  type: PropTypes.oneOf(['button', 'reset', 'submit']),
-  width: PropTypes.string
+    children: PropTypes.node,
+    disabled: PropTypes.bool,
+    type: PropTypes.oneOf(['button', 'reset', 'submit']),
+    width: PropTypes.string
 }
 
 Button.defaultProps = {
-  disabled: false,
-  type: 'button',
-  width: '90%'
+    disabled: false,
+    type: 'button',
+    width: '90%'
 }
 
 export default Button
