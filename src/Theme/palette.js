@@ -1,5 +1,17 @@
 /* eslint-disable sort-keys */
 const palette = {
+    // Grey shades (Light to Dark)
+    grey000: '#F0F2F7',
+    grey100: '#DFE3EB',
+    grey200: '#CCD2DE',
+    grey300: '#B1B8C7',
+    grey400: '#98A1B2',
+    grey500: '#828B9E',
+    grey600: '#677185',
+    grey700: '#50596B',
+    grey800: '#353F52',
+    grey900: '#121D33',
+
     // Gray shades
     gray: '#808080',
     darkgray: '#A9A9A9',
@@ -12,7 +24,7 @@ const palette = {
     // Red shades
     crimson: '#990000',
     boston: '#CC0000',
-    red: '#F36331',
+    red: '#DC3545',
     // Yellow shades
     gold: '#FFCA00',
     yellow: '#F7C653',

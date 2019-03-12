@@ -14,11 +14,13 @@ const theme = {
     buttonColor: palette.white,
     /* buttonHoverColor: darken(0.05, palette['crimson']), */
     textColor: palette.black80,
-    inputColor: palette.black80,
+    inputColor: palette.black70,
     dangerColor: palette.red,
-    inputBorderColor: palette.gray,
-    inputBorderRadius: '0.255rem',
-    inputBackgroundColor: palette.white
+    inputBorderColor: palette.lightgray,
+    inputBorderRadius: '0.25rem',
+    inputBackgroundColor: palette.white,
+    inputBackgroundColorDisabled: palette.grey000,
+    inputPlaceholderColor: palette.grey300
 }
 
 export default theme
