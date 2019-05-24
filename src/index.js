@@ -1,4 +1,4 @@
-export * from './Input'
+export * from './Inputs'
 export * from './Buttons'
 export * from './Theme'
 export * from './Tools'
